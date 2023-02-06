@@ -1,0 +1,49 @@
+STRUCTURE ITERATIVE TANT_QUE
+
+Exercice 10
+Algorithme: nombre_premier;
+Var: somme,a;
+
+Debut:
+  somme <-- 0
+  a <-- 1
+  Tant_que (a<=9) faire
+    somme <-- somme + a;
+         a<-- a+1;
+  Fin tant_que
+  ecrire "la somme des dix premiers nombre est" somme;
+Fin
+
+
+Exercice 11
+Algorithme: nom;
+Var: nom:chaine de caractère;
+     n: entiers;
+
+Debut
+  n <-- 0
+  ecrire "Saisissez un nom de quatre Lettre";
+  lire nom;
+  tant_que (nom != ZZZZ) faire
+      ecrire "Saisissez un nom de quatre Lettre";
+      lire nom;
+      n <-- n+1;
+  fin tant_que
+  Si (nom = ZZZZ) alors
+      ecrire "Vous avez fait" n "tentatives";
+Fin
+
+
+Exercice 12
+Algorithme: informatique;
+Var: reponse: chaîne de caratère
+
+Debut
+   ecrire "Aimez-vous l'informatique?";
+   lire reponse;
+   tant_que (reponse!=oui ou reponse!=non) faire
+   ecrire " Ce n'est pas une réponse valide.
+            Aimez-vous l'informatique?"
+   lire reponse;
+   fin tant_que
+Fin

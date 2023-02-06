@@ -1,0 +1,111 @@
+STRUCTURE DE CONTROLE SI
+
+
+Exercice 1
+Agorithme:plus_grand_nombre
+Var: a,b: entiers;
+
+Debut:
+   Ecrire "Veuillez entrer un nombre"
+   Lire a;
+   Ecrire "Veuillez entrer un nombre"
+   Lire b;
+   Si (a>b) alors;
+      Ecrire a "est le plus grand";
+   FinSi
+   Si (b>a) alors;
+      Ecrire b "est le plus grand";
+   Finsi
+Fin
+
+
+Exercice 2
+Algorithme: moins_de_dix
+Var: annee
+
+Debut:
+   Ecrire "Veuilez entrée votre année de naissance"
+   Lire annee
+   Si (annee>2013) alors:
+      Ecrire "Vous avez-moins de 10 ans"
+   FinSi
+Fin
+
+
+Exercice 3
+Agorithme:plus_grand_nombre
+Var: a,b: entiers;
+
+Debut:
+   Ecrire "Veuillez entrer un nombre";
+   Lire a;
+   Ecrire "Veuillez entrer un nombre"
+   Lire b;
+   Si (a>b) alors;
+      Ecrire a "est le plus grand";
+      Sinon
+      Ecrire b "est le plus grand";
+   Finsi
+Fin
+
+
+Exercice 4
+Algorithme:
+Var: a,b: entiers;
+
+Debut:
+   Ecrire "Veuillez entrer un nombre"
+   Lire a,b;
+   Si (a-b>0) alors
+      Ecrire "la valeur absolue de" a "et" b "est" a-b;
+      Sinon
+         Si a-b<0 alors
+             Ecrire "la valeur absolue de" a "et" b "est" b-a;
+             Sinon
+               Si a=b alors
+               Ecrire "la valeur asolue de" a "et" b "est";
+               FinSi
+         FinSi
+    FinSi
+Fin
+
+
+Exercice 5
+Algorithme
+Var: a: chaîne de caractère;
+Debut:
+   Ecrire "Quelle est la couleur qui s'affiche";
+   Lire a;
+   Si a=vert alors
+   Ecrire "passez"
+   Sinon 
+     Si a=jaune alors
+     Ecrire "Ralentissez";
+     Sinon
+        Si a=rouge alors
+        Ecrire "Arrêtez-vous";
+        FinSi
+     FinSi
+    FinSi
+Fin
+
+
+Exercice 6
+Algorithme: equation;
+Var: a,b:entiers;
+Debut:
+   Ecrire "Veuilez entrer un nombre";
+   Lire a,b;
+   Si (a!=0) alors
+      Ecrire "La solution de cette équation est" -b/a
+      Sinon
+         Si (a=0) alors
+            Ecrire "Cette équation n'est pas valide";
+            Sinon 
+               Si b=0
+                  Ecrire "Cette équation est ambigue";
+               FinSi
+         FinSi
+    FinSi
+Fin
+        

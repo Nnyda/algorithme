@@ -1,0 +1,35 @@
+STURCTURE REPETER
+
+Exercice 13
+
+Algorithme:informatique;
+Var: reponse: chaine de caratère;
+
+Debut
+    ecrire"aimez-vous l'informatique?";
+    lire reponse;
+    repeter
+        ecrire "aimez-vous l'informatique?";
+        jusqu'à 
+    (reponse= oui ou reponse=non);
+Fin
+
+
+Exercice 14
+
+Algorithme: somme_de_nombre;
+Var: p,n: entiers;
+
+Debut
+   ecrire "entrez un nombre";
+   lirez n;
+   si (n>= 100) alors
+        ecrire "  ";
+          sinon
+             repeter
+               ecrire "entrez un nombre";
+               lire p;
+               n <-- n+p
+               jusqu'à
+               (n>=100)
+Fin
