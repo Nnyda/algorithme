@@ -1,0 +1,45 @@
+
+Exercice 15
+Algorithme:somme_10_premier_nombre;
+Var: n,s: entiers;
+
+Début
+   s <-- 0;
+   Pour n <-- 0 a 9 pas de 1 faire
+        s <-- s+n;
+   Fin pour
+   Afficher s;
+Fin
+
+
+Exercice 16
+Algorithme : Table_8;
+Var : n : entiers;
+
+Debut
+   Pour n <-- 0 a 12 faire
+        Ecrire "8x"n"=" 8*n;
+   Fin Pour
+Fin
+
+Exercice 17
+Algorithme: table_multiplication;
+Var:n,p;
+   
+Debut
+  Ecrire "Entrez un nombre compris entre 0 et 10";
+  lire n;
+  Ecrire "Table de multiplication de" n;
+  Pour p <-- 0 a 10 faire
+     Ecrire p"x"n"=" n*p;
+  Fin Pour
+Fin
+
+Exercice 17
+Algorithme: factoriel;
+Var: n;
+
+Debut
+   Ecrire "Entrez un nombre"
+   lire n;
+  
