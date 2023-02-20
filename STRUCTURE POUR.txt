@@ -68,6 +68,18 @@ Debut
 Fin
 
 Exercice 19
+
+fonction PGCD(a, b)
+    pour i allant de 1 à b faire
+        r = a % b;
+        a = b;
+        b = r;
+        si b = 0 alors
+            retourner a;
+        fin si
+    fin pour
+fin fonction
+
    
    
     
