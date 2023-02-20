@@ -23,6 +23,16 @@ Debut
 Fin
 
 Exercice 17
+Algorithme : Table_10;
+Var : n : entiers;
+
+Debut
+   Pour n <-- 0 a 10 faire
+        Ecrire "10x"n"=" 10*n;
+   Fin Pour
+Fin
+
+Exercice 17
 Algorithme: table_multiplication;
 Var:n,p;
    
@@ -35,11 +45,30 @@ Debut
   Fin Pour
 Fin
 
-Exercice 17
+Exercice 18
 Algorithme: factoriel;
-Var: n;
+Var: n;i;fact;
 
 Debut
-   Ecrire "Entrez un nombre"
+   Ecrire "Entrez un nombre";
    lire n;
+   Si n<0 alors
+      Ecrire "Veuillez entrer un nombre positif s'il vous plaît";
+   FinSi
+   Si n=0 alors
+      Ecrire "Le factoriel de égal à 1";
+   FinSi
+   Si n>0 alors
+      Pour i <-- 1 a n faire;
+           fact<-- 1; 
+           fact <-- 1*i;
+      FinPour
+      Ecrire "Le factoriel de " n " est égale" fact 
+   FinSi
+Fin
+
+Exercice 19
+   
+   
+    
   
